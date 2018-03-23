@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>READER</title>
+<style>
+.link
+{
+   color:#bac4d5;
+   text-decoration: none; 
+   background-color: none;
+}
+#mySidenav a {
+    position: absolute;
+    left: -112px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+    left: 0;
+}
+
+#home {
+    top: 20px;
+    background-color: #345065;
+}
+
+#register {
+    top: 80px;
+    background-color:  #526d88 ;
+}
+
+#reader {
+    top: 140px;
+    background-color: #6b8a9f;
+}
+
+#about {
+    top: 200px;
+    background-color:  #93adbe
+}
+</style>
+<!--meta http-equiv="refresh" content="1"-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/font-awesome.css" rel="stylesheet"> 
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<link href="//fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800" rel="stylesheet">
+</head>
+<body onload="loadDoc()">
+<div id="mySidenav" class="sidenav">
+  <a href="http://172.16.57.54/web2/home.html" id="home">Home</a>
+  <a href="http://172.16.57.54/web3/index.html" id="register">Register</a>
+  <a href="http://172.16.57.54/reader/reader.html" id="reader">Reader</a>
+  <a href="#" id="about">Team</a>
+</div>
+<script>
+setInterval(function loadDoc() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+    myFunction(this);
+    }
+  };
+  xhttp.open("GET", "status.xml", true);
+  xhttp.send();
+},1)
+function myFunction(xml) {
+  var xmlDoc = xml.responseXML;
+  var x = xmlDoc.getElementsByTagName("ITEMS");
+  document.getElementById("status").innerHTML = x[0].getElementsByTagName("STATUS")[0].childNodes[0].nodeValue;
+  document.getElementById("name").innerHTML = x[0].getElementsByTagName("FNAME")[0].childNodes[0].nodeValue+" "+x[0].getElementsByTagName("LNAME")[0].childNodes[0].nodeValue;
+  document.getElementById("vno").innerHTML = x[0].getElementsByTagName("VNO")[0].childNodes[0].nodeValue;
+  document.getElementById("addr").innerHTML = x[0].getElementsByTagName("ADDRESS")[0].childNodes[0].nodeValue
+ }
+</script>
+<div ><h1><a class='link' target="_blank" href="http://172.16.57.54/reader/qreader.py">READER</a></h1></div>
+<div id="myDiv"></div>
+<div class="main-content-agileits">
+<div class="left-text-w3ls" >
+<h3 id="status"></h3>
+<p id="name"></p>
+<p id="vno"></p>
+<p id="addr"></p>
+</div>
+<!--<div class="login-w3l">	
+<a target="_blank" href="http://www.google.com">
+<div class="top-img-agileits-w3layouts" onclick="this.className='visited'">
+</div>		
+</a></div>--> 
+<div class="clear"></div>
+</div>
+</body>
+</html>
