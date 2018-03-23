@@ -1,0 +1,6 @@
+Software Requirements:
+1.OpenCV 3.x
+2.Python 2.7
+3.zbar
+5.Visual Studio 2013 c++ Redistributablex64bit
+6.Xampp Server
