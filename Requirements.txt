@@ -4,3 +4,4 @@ Software Requirements:
 3.Zbar
 5.Visual Studio 2013 c++ Redistributablex64bit
 6.Xampp Server
+7.Microsoft Windows 10(64 bit)
