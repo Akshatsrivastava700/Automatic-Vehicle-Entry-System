@@ -58,7 +58,7 @@ else:
     print "<head>"
     print "<title>Gla vehicles</title>"
     print "</head>"
-    print '<meta http-equiv="refresh" content="0; url=http://172.16.57.54/web3/index.html">'
+    print '<meta http-equiv="refresh" content="0; url=http://172.16.57.54/web3/generate.html">'
     print "<body>"
     print "<h2>Redirecting2...</h2>" 
     print "</body>"
