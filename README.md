@@ -25,7 +25,7 @@ Python Libraries:<br />
 A step by step installation process:
 
 1. Install python 2.7(64 bit) on your local syatem.
-2. Install OpenCV 3.x(64 bit).
+2. Install OpenCV 3.x(64 bit) from https://sourceforge.net/projects/opencvlibrary/files/opencv-win/3.3.0/.
 3. Install Zbar(64 bit).
 4. Copy zbar-0.10-cp27-none-win_amd64.whl in the C:\Python27\Scripts folder.
 5. Copy Run.bat file in the same folder as mentioned above.
