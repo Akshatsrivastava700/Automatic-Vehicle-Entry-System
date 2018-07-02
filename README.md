@@ -9,7 +9,17 @@ These instructions will help you run this project on your local system. See depl
 Software Requirements:
 In the Requirement.txt file.
 Python Libraries:
-
+* cgi
+* cgitb
+* MySQLdb
+* pyqrcode
+* cv2
+* os
+* time
+* xml.etree.ElementTree
+* re
+* PIL
+* datetime
 ### Installing
 
 A step by step installation process:
@@ -36,7 +46,7 @@ A step by step installation process:
       default.php default.pl default.cgi default.asp default.shtml default.html default.htm \
       home.php home.pl home.cgi home.asp home.shtml home.html home.htm index.py
     </IfModule>
-11 Restart apache/xampp:
+11. Restart apache/xampp:
 
    That's all for editing, now restart apache from your xampp control panel
 
