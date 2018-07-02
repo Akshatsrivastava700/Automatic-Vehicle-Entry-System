@@ -30,7 +30,7 @@ A step by step installation process:
 4. Copy zbar-0.10-cp27-none-win_amd64.whl in the C:\Python27\Scripts folder.
 5. Copy Run.bat file in the same folder as mentioned above.
 6. Run the bat file and type pip install cv2 and the pip install zbar.
-7. Install all the pyhton libraries as mentioned above.
+7. Install all the python libraries as mentioned above and install VCForPython27 file as well.
 8. Install Xampp on your system
 9. Configure Python:
       Open the directory where xammp was installed Go to apache >> conf [ex. D:\xampp\apache\conf\httpd.conf] You'll see    a file named       httpd.conf Open it in any text editor & put the below codes in the end of that file
