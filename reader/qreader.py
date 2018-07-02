@@ -103,18 +103,18 @@ class reader:
             cv2.imshow('Current', frame)
 
             # Converts image to grayscale.
-            gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+            gray_img = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
             # Uses PIL to convert the grayscale image into a ndary array that ZBar can understand.
-            image = Image.fromarray(gray)
+            image = Image.fromarray(gray_img)
             width, height = image.size
-            zbar_image = zbar.Image(width, height, 'Y800', image.tobytes())
+            z_img = zbar.Image(width, height, 'Y800', image.tobytes())
 
             # Scans the zbar image.
             scanner = zbar.ImageScanner()
-            scanner.scan(zbar_image)
+            scanner.scan(z_img)
             
-            # Prints data from image.
+            # Checks data from image.
             for decoded in zbar_image:
                 self.str1=str(decoded.data)
                 if self.str1==str2:
