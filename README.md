@@ -73,5 +73,5 @@ You need a camera attached to your system for the reader module.
 ## Acknowledgments
 
 * The Webpages of this project are taken from W3layouts.com and edited accordingly.
-* On the main gate of the university I study in whenever a vehicle enters into the campus the security maintains a hard copy of its       information. So this inspired me to automate their work.
+* On the main gate of the university I study in whenever a vehicle enters into the campus the security maintained a hard copy of its       information. So this inspired me to automate their work.
 
