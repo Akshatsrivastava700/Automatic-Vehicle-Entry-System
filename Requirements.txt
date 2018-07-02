@@ -1,7 +1,10 @@
-Software Requirements:
-1.OpenCV 3.x
-2.Python 2.7
-3.Zbar
-5.Visual Studio 2013 c++ Redistributablex64bit
-6.Xampp Server
-7.Microsoft Windows 10(64 bit)
+## Software Requirements:
+  1.OpenCV 3.x
+  2.Python 2.7
+  3.Zbar
+  5.Visual Studio 2013 c++ Redistributablex64bit
+  6.Xampp Server
+  7.Microsoft Windows 10(64 bit)
+## Hardware Requirement:
+  1. Camera.
+  2. Intel i3 processor.
