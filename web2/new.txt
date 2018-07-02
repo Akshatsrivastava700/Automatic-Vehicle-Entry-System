@@ -1,3 +1,0 @@
-<?php
-exec('c:\WINDOWS\system32\cmd.exe /c START C:\Program Files\VideoLAN\VLC\vlc.bat');
-?>
