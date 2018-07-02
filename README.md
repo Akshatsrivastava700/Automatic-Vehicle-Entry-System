@@ -54,7 +54,13 @@ A step by step installation process:
 13. Copy all the project files in the htdocs folder where xampp is  installed.
 14. Open the browser and type your_ip/htdocs/login/login.html(You need to replace the ip stored in the files of the project with your current ip and add your login credentials in mysql database in xampp).
 15. Login and Run the project.
-
+## Modules
+**1. Login:**<br/>
+      In this module python cgi is used to verify the login details from the database.<br/>
+**2. Generate:**<br/>
+      Using pyhton's pyqrcode library a QR code is generated and displayed on the screen and the information is taken from the form           generate.html.<br/>
+**3. Reader:**<br/>
+      Using python's cv2,zbar library the QR code is scanned through the camera and the information captured is verified and is stored in the database and in an xml file (using  xml.etree.ElementTree) to display the status on the screen.<br/>  
 ## Deployment
 
 You need a camera attached to your system for the reader module.
