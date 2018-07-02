@@ -6,9 +6,9 @@ This project aims to automatically store the information of vehicles coming in a
 These instructions will help you run this project on your local system. See deployment for how to deploy the project on a live system.
 
 ### Prerequisites
-Software Requirements:
-In the Requirement.txt file.
-Python Libraries:
+Software Requirements:<br />
+In the Requirement.txt file.<br />
+Python Libraries:<br />
 * cgi
 * cgitb
 * MySQLdb
