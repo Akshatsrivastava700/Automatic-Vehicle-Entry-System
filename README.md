@@ -7,7 +7,7 @@ These instructions will help you run this project on your local system. See depl
 
 ### Prerequisites
 Software Requirements:<br />
- *In the Requirement.txt file.<br />
+ *In the Requirement.txt file.*<br />
 Python Libraries:<br />
 * cgi
 * cgitb
