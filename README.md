@@ -20,7 +20,7 @@ Python Libraries:<br />
 * re
 * PIL
 * datetime
-### Installing
+### Installation
 
 A step by step installation process:
 
