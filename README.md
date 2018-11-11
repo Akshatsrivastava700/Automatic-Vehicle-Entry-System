@@ -74,7 +74,7 @@ You need a camera attached to your system for the reader module.
 * JavaScript
 
 ## Future Scope
-  This project can be developed furthur and can be used on any gate frome where any vehicles passes by.
+  This project can be developed furthur and can be used on any gate from where any vehicles passes by.
 
 ## Acknowledgments
 
